@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSc. Computer Science - Data Science </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #e67e22;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 0 10px;
+            transition: background 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #e67e22;
+            border-radius: 5px;
+        }
+
+        .container {
+            margin: 40px auto;
+            max-width: 1200px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #34495e;
+            margin-bottom: 20px;
+        }
+
+        .course-section {
+            margin-bottom: 40px;
+        }
+
+        .course-section h3 {
+            font-size: 1.5em;
+            color: #2980b9;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            padding: 10px;
+            background-color: #ecf0f1;
+            border-left: 5px solid #2980b9;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        .course {
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-left: 5px solid #e67e22;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            transition: background 0.3s;
+        }
+
+        .course:hover {
+            background-color: #fafafa;
+        }
+
+        .course-title {
+            font-size: 1.8em;
+            color: #e67e22;
+            margin-bottom: 10px;
+        }
+
+        .course-description {
+            color: #7f8c8d;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+            }
+
+            .navbar a {
+                margin: 10px 0;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MSc. Computer Science - Data Science</h1>
+    <!-- <p>With Specialization in Data Science</p> -->
+</header>
+
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#admission">Admission</a>
+    <a href="#faculty">Faculty</a>
+    <a href="#courses">Courses</a>
+    <a href="#students">Students</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<div class="container">
+    <h2>Program Curriculum</h2>
+    <p><b> Msc. Computer Sciene - Data Science</b> program at University of Regina is designed to equip students with skills required to turn data into knowlegde, 
+        and knowlegde into values. The program is highly focused and aligned with data science. The program covers key concepts about <b> data visualization,
+            statistical analysis, machine learning, artificial intelligence, big data technologies.</b> Students will have a great opportunity to explore and have 
+        hands on exposure to industry standard problems as well as real world challenges. The program enables students to provide innovative solutions for complex
+        problems existing in the world.</p>
+    <br>
+    <h2> Program Requirements</h2>
+    <p>The program length is <b>18-24 months.</b>  Students have to take <b>4 required courses, 2 elective courses, complete the seminar.</b>  Students have to participate in <b>Co-op Education</b> program  for minimum 
+        2 terms and after completion of co-op education. After completion of all required & elective courses they have to work on a <b>standlone project.</b>  The project work must be completed within 1 term. Students have to present
+        oral presentation in front of departmental committee and submit a technical report. 
+    </p>
+    
+    <br>
+
+    <div class="course-section">
+        <h2>Required Courses</h2>
+        <div class="course-grid">
+            <div class="course">
+                <div class="course-title"><b> Data Science Foundation</b> </div>
+                <div class="course-description">
+                    Broad overview of the data science process lifecycle and methods. Topics include data ethics, data discovery, data preparation, model planning, 
+                    machine learning model implementation, and evaluation, visualization, and delivery.
+                </div>
+            </div>
+            
+            <div class="course">
+                <div class="course-title"><b>Probability and Statistics</b> </div>
+                <div class="course-description">
+                    Statistical basis for machine learning. Topics include distributions, probabilities, sampling, hypothesis testing, Bayes’ theorem, maximum likelihood, machine learning theory
+                </div>
+            </div>
+            
+            <div class="course">
+                <div class="course-title"><b>Artificial Intelligence & Machine Learning </b> </div>
+                <div class="course-description">
+                    Machine learning approaches applied to real-world problems. Topics include classification, regression, clustering, decision trees and random forests, Bayesian networks,
+                    deep learning, face and object recognition, time-series forecasting, anomaly detection, natural language processing, and machine translation.
+                </div>
+            </div>
+    
+            <div class="course">
+                <div class="course-title"><b>Big Data Management</b> </div>
+                <div class="course-description">
+                    An introductory course to managing and processing large datasets using modern technologies such as Hadoop, Spark, and NoSQL databases. 
+                    Topics on data storage, retrieval, and analysis techniques essential for handling big data in real-world applications.
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="course-section">
+        <h2>Elective Courses</h2>
+        <div class="course-grid">
+            <div class="course">
+                <div class="course-title"><b>Advance Data Visualization</b>  </div>
+                <div class="course-description">
+                    Advanced course on visualization to make students familiar with visualization libraries such as seaborn, matplotlib etc. Topics on graphs, charts, maps as
+                    well as a project on data visulizaiton using Power BI or Tableau.
+                </div>
+            </div>
+            
+            <div class="course">
+                <div class="course-title"><b>Deep Learning & Health Informatics</b> </div>
+                <div class="course-description">
+                    The course focuses on the application of deep learning techniques in healthcare and medical data analysis. Topics include  convolutional neural networks (CNNs), and recurrent neural networks (RNNs) for 
+                    tasks like medical image analysis, disease prediction.
+                </div>
+            </div>
+            
+            <div class="course">
+                <div class="course-title"><b>Financial Market Analytics</b>  </div>
+                <div class="course-description">
+                    The course focuses on in-depth understanding of Financial market as well as analysis of stocks and bonds. Topics include application of statistical methods,
+                    artificial intelligence techniques to forecast market trends, evalute risks inorder to make informed data driven decision.
+                </div>
+            </div>
+        
+            <div class="course">
+                <div class="course-title"><b>Speech,
+                    Natural
+                    Language
+                    Processing
+                    and the Web</b> </div>
+                <div class="course-description">
+                    The course explores the foundations of speech recognition and natural language processing (NLP) with a focus on web-based applications. Students will learn techniques for language modeling,
+                     text processing, sentiment analysis. The course also covers the integration of NLP technologies into web platforms, search engines, and voice assistants.
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="course-section">
+        <h2>Seminar</h2>
+        <div class="course">
+            <div class="course-title"><b>Communication & Ethics in Data Science</b> </div>
+            <div class="course-description">
+                Data Science students will attend a professionally focused seminar series with topics including ethics, privacy, innovation,  and effective communication.
+            </div>
+        </div>
+            
+    </div>
+    <div class="course-section">
+        <h2>Project & Co-op Education</h2>
+        Project & Co-op Education is a mandatory requirement for graduation. Students are required to maintain <b>more than 80 GPA</b> throughout the course work. In order 
+        to be eligible for Co-op Education students are required to complete any two required courses and one elective course with <b>overall 85 GPA.</b>  Students are considered eligible as soon as they complete the first semester. 
+            
+    </div>
+    
+
+
+    </div>
+    
+    
+</div>
+
+
+
+
+<footer>
+    <p>&copy; 2024 Department of Computer Science - University of Regina</p>
+    <p>&reg; All rights reserved</p>
+</footer>
+
+</body>
+</html>
